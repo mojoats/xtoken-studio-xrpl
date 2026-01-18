@@ -17,6 +17,10 @@ Inspired by Hedera's Asset Tokenization Studio, but adapted to XRPL's native fea
 - 3-5s settlements, ~$0.0002 fees
 - Growing ecosystem: Ondo OUSG, Archax, Meld Gold, RLUSD integrations
 
-### Installation (Coming Soon)
-```bash
-npm install @mojoats/xtoken-studio
+### Installation 
+Install dependencies:
+ pnpm install
+
+Build:
+ pnpm build
+
