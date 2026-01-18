@@ -2,16 +2,24 @@
   "name": "xtoken-studio-xrpl",
   "version": "0.1.0-alpha.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "pnpm -r build",
-    "test": "pnpm -r test",
-    "lint": "pnpm -r lint"
+    "quickstart": "tsx examples/quickstart.ts",
+    "transfer": "tsx examples/transfer.ts",
+    "authorizeHolder": "tsx examples/authorizeHolder.ts",
+    "queryBalance": "tsx examples/queryBalance.ts"
   },
   "devDependencies": {
-    "typescript": "^5.5.4",
-    "pnpm": "^9.12.0"
+    "dotenv": "^16.3.1",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "xrpl": "^4.5.0"
+  }
 }

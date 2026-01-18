@@ -2,10 +2,15 @@
   "compilerOptions": {
     "target": "ES2022",
     "module": "ESNext",
-    "declaration": true,
-    "outDir": "./dist",
-    "strict": true,
+    "moduleResolution": "Node",
     "esModuleInterop": true,
-    "skipLibCheck": true
-  }
+    "strict": true,
+    "outDir": "dist",
+    "resolveJsonModule": true
+	"baseUrl": ".",
+    "paths": {
+      "@sdk-core": ["packages/sdk-core/src/index"],
+      "@sdk-core/*": ["packages/sdk-core/src/*"]
+  },
+  "include": ["packages/**/*", "examples/**/*"]
 }
