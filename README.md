@@ -1,10 +1,12 @@
-XToken Studio is an open-source toolkit and SDK for the configuration, issuance, and management of compliant Multi-Purpose Tokens (MPTs) and Real-World Assets (RWAs) on the XRP Ledger (XRPL) - with less complexity, lower risk, and faster execution.Inspired by Hedera's Asset Tokenization Studio (ATS), but built natively for XRPL's strengths:Multi-Purpose Tokens (MPTs): Flexible fungible tokens with built-in metadata, compliance controls (clawback, freeze, require auth, transfer fees), and unique issuance IDs.
+XToken Studio (XRPL)
+
+XToken Studio is an open-source toolkit and SDK for the configuration, issuance, and management of compliant Multi-Purpose Tokens (MPTs) and Real-World Assets (RWAs) on the XRP Ledger (XRPL) — with less complexity, lower risk, and faster execution. Natively for XRPL's strengths:Multi-Purpose Tokens (MPTs): Flexible fungible tokens with built-in metadata, compliance controls (clawback, freeze, require auth, transfer fees), and unique issuance IDs.
 Extremely low fees (~$0.0002 per tx) and fast settlements (3-5 seconds).
-No complex smart contracts for core tokenization - the ledger handles compliance and rules natively.
+No complex smart contracts for core tokenization — the ledger handles compliance and rules natively.
 Optional Hooks for light custom logic and EVM sidechain for advanced programmability.
 Designed for institutional and emerging-market use cases: tokenized bonds, sukuk, commodities, stablecoins, yield-bearing assets, and SME financing.
 
-Perfect for developers, fintechs, and institutions building compliant RWAs - with trader-friendly extensions like yield metadata and AMM integrations. The SDK is built on xrpl.js and draws patterns from official XRPL code samples for reliability.Key FeaturesToken Issuance & Management: Issue MPTs with compliance flags, metadata (XLS-89 compliant), and lifecycle control (mint/burn/transfer/authorize holders).
+Perfect for developers, fintechs, and institutions building compliant RWAs — with trader-friendly extensions like yield metadata and AMM integrations. The SDK is built on xrpl.js and draws patterns from official XRPL code samples for reliability.Key FeaturesToken Issuance & Management: Issue MPTs with compliance flags, metadata (XLS-89 compliant), and lifecycle control (mint/burn/transfer/authorize holders).
 Compliance Tools: Built-in primitives for KYC-like authorization (require auth), regulatory reversals (clawback), and granular controls (freeze, transfer fees).
 Mass Operations: Batch payouts/transfers via native Payments/Escrow, optimized for dividends, coupons, or large distributions.
 Developer Tools: TypeScript SDK, CLI for prototyping, React-based Web Studio UI for visual token management (wallet connect via XUMM).
@@ -91,6 +93,5 @@ UI improvements.
 Trader tools (yields, risk).
 
 See CONTRIBUTING.md (add one soon). Open issues for bugs/ideas.Join XRPL Discord (dev channels) or tag @BenAnon7
- on X for feedback.LicenseApache License 2.0 - see LICENSEInspired by: https://github.com/hashgraph/asset-tokenization-studio and XRPL official code samples (https://github.com/XRPLF/xrpl-dev-portal/tree/master/_code-samples)Let's build compliant RWAs on XRPL together! 
-
+ on X for feedback.LicenseApache License 2.0 — see LICENSEInspired by: https://github.com/hashgraph/asset-tokenization-studio and XRPL official code samples (https://github.com/XRPLF/xrpl-dev-portal/tree/master/_code-samples)Let's build compliant RWAs on XRPL together! 
 
